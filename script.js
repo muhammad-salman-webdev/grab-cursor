@@ -33,7 +33,6 @@ grabingSwiper.on("touchMove", (grabingSwiper, event) => {
     const direction = movingRight ? "right" : "left";
 
     grabingMobileScreensSwiper.classList.add(`move-cards-to-${direction}`);
-    // console.log(`Moved: ${Math.abs(distanceMoved)}px, Direction: ${direction}`);
     startPosition = currentPosition;
   }
 });
