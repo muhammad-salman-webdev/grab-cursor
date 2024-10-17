@@ -17,6 +17,8 @@ body {
 
 .grabing-slider-container {
     width: 100%;
+    margin: 0 0 0 auto;
+    max-width: calc(100% - 230px);
     padding-top: 30px;
     overflow: hidden;
     display: flex;
@@ -97,7 +99,7 @@ body {
 
                             img {
                                 width: 100%;
-                                height: 100%;
+                                height: 100% !important;
                             }
                         }
                     }
